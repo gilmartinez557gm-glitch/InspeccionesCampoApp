@@ -17,7 +17,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="20dp"/>
 
-
+<!--//Muestra la lista de todas las inspecciones creadas-->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerInspecciones"
         android:layout_width="match_parent"
