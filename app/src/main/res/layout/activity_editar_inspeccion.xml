@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <EditText
+        android:id="@+id/etTituloEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título"/>
+
+
+    <EditText
+        android:id="@+id/etDescripcionEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"/>
+
+
+    <EditText
+        android:id="@+id/etLatitudEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitud"/>
+
+
+    <EditText
+        android:id="@+id/etLongitudEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitud"/>
+
+
+    <EditText
+        android:id="@+id/etEstadoEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Estado"/>
+
+
+    <Button
+        android:id="@+id/btnActualizarInspeccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar inspección"/>
+
+
+</LinearLayout>
