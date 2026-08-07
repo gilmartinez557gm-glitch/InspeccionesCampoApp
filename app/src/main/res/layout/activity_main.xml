@@ -9,7 +9,7 @@
     android:gravity="center"
     android:padding="30dp">
 
-//Esta la imagen del logo de la Universidad
+//Esta la imagen del logo de la Universidad (UCENM)
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
